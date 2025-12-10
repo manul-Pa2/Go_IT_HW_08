@@ -14,3 +14,11 @@ def caching_fibonacci():
         return cache[n]
 
     return fibonacci     
+
+"""
+Test: 
+fib = caching_fibonacci()
+
+print(fib(10))  # 55
+print(fib(15))  # 610
+"""
